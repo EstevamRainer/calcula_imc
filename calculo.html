@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>O que é IMC?</title>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <a class="cabecalho__links" href="index.html">Home</a>
+            <a class="cabecalho__links" href="calculo.html">Calcule o seu IMC</a>
+        </header>
+        <main class="conteudo">
+            <h1 class="conteudo__titulo__imc">Calcule o seu IMC</h1>
+            <section class="conteudo__divisao__imc">    
+                <p class="conteudo__divisao__paragrafo">O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).</p>
+                <p class="conteudo__divisao__paragrafo">IMC = Peso ÷ (Altura × Altura)</p>
+                <p class="conteudo__divisao__paragrafo">Exemplo de como calcular o IMC:</p>
+                <p class="conteudo__divisao__paragrafo">IMC = 80 kg ÷ (1,80 m × 1,80 m) = 24,69 kg/m2 (Peso ideal)</p>
+                <p class="conteudo__divisao__paragrafo">Utilize a calculadora abaixo para fazer o seu cálculo: (não se esqueça de colocar a vírgula na altura)</p>
+            </section>
+            <section class="conteudo__divisao2">
+                <div class="conteudo__divisao2__divisao__calculos">
+                    <input class="conteudo__divisao__calculos__input__peso" id="pesoid" type="number">
+                    <p class="conteudo__divisao__paragrafo__input">Peso</p>
+                </div>
+                <div class="conteudo__divisao2__divisao__calculos">
+                    <input class="conteudo__divisao__calculos__input__altura" id="altura" type="number">
+                    <p class="conteudo__divisao__paragrafo__input">Altura</p>
+                </div>
+                <button class="conteudo__divisao__calculos__botao">Realizar Calculo</button>
+            </section>
+            <section id="p__js"class="paragrafo__js">
+
+            </section>
+        </main>
+        <footer class="rodape">
+            <p class="rodape__paragrafo">
+                Informações retiradas do site:  <strong class="rodape__destaque"> Governo do Estado do Rio de Janeiro.</strong> <a class="rodape__link" href="https://www.saude.rj.gov.br/obesidade/noticias/2019/03/imc-voce-sabe-o-que-o-indice-de-massa-corporal-diz-sobre-sua-saude">Clique aqui para ser redirecionado</a>
+            </p>
+            <p class="rodape__paragrafo">Site desenvolvido por Estevam Rainer</p>
+        </footer>
+        <script src="./script/calcula_imc.js"></script>
+    </body>
+    </html>

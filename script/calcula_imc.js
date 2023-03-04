@@ -5,17 +5,13 @@ function calculaIMC(peso, altura){
   return imc;
 }
 function verificaIMC(){
-  if (temTexto == true){
+if (temTexto == true){
   const paragrafo = document.getElementById("p2__js");
   paragrafo.remove();
-  }
+}
 var peso = document.getElementById("pesoid").value;
 var altura = document.getElementById("altura").value;
-if(peso == undefined || peso == null || peso == "" || peso == '' ){
-alert("Por favor, insira os valores de forma correta");
-} else if (altura == undefined || altura == null || altura == "" || altura == '') {
-  alert("Por favor, insira os valores de forma correta");
-  } else {
+if(peso || peso != '' && altura || altura != ''){
     var imc = calculaIMC(peso, altura);
     const paragrafo = document.createElement("p");
     const elemento = document.getElementById("p__js");
@@ -68,6 +64,9 @@ alert("Por favor, insira os valores de forma correta");
         const linha = document.createTextNode(texto);
         paragrafo.appendChild(linha);
     }
-  }
+  } else {
+    alert("Informações incorretas, por favor verifique os dados!");
+    temTexto = false;
+}
 }
 document.querySelector(".conteudo__divisao__calculos__botao").onclick = verificaIMC;

@@ -1,4 +1,3 @@
-![Programação-Calcula IMC](https://user-images.githubusercontent.com/122125357/221359796-bd046468-9856-4954-95aa-7d38747fcc37.png)
 # Calcula IMC
 Calcula IMC é um site criado com o objetivo de além de informar o que é IMC, ele também faz o cálculo com as informações passadas pela pessoa que deseja saber o seu IMC!
 

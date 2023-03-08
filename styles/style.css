@@ -264,6 +264,7 @@
 
     .conteudo__titulo__imc {
         margin: 0;
+        padding: 0 0 5% 5%;
     }
 
     .conteudo__divisao2 {
@@ -271,7 +272,7 @@
         flex-direction: column;
         align-items: flex-start;
         margin: 0;
-        padding: 10% 10%;
+        padding: 10% 0;
     }
     
 }

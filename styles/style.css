@@ -144,7 +144,7 @@
     font-weight: 700;
     padding: 2rem 0;
     color: var(--cor__rosa);
-    margin: 0 0 0 40%;
+    padding: 0 0 3% 40%;
 }
 
 .conteudo__divisao__imc {
@@ -156,7 +156,7 @@
 .conteudo__divisao2 {
     display: flex;
     justify-content: space-between;
-    margin: 5% 25%;
+    padding: 5% 25%;
     align-items:baseline;
 }
 

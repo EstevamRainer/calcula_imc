@@ -1,5 +1,4 @@
 
-//comentário!!
 var temTexto = false;
 function calculaIMC(peso, altura){
   var imc = (peso / (altura*altura));

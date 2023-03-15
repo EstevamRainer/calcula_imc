@@ -27,7 +27,7 @@ Para abrir o projeto, basta executar o arquivo ```index.html``` em seu navegador
 ## 🔧 Desenvolvido por:
 Estevam Rainer
 
-LinkedIn: https://www.linkedin.com/in/estevam-lopes-258226261/
+LinkedIn: https://www.linkedin.com/in/estevam-lopes-258226261/ 
 
 
 
